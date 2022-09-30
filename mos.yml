@@ -14,12 +14,12 @@ platforms: [ esp32 ]
 build_vars:
          ESP_IDF_EXTRA_COMPONENTS: >
            ${build_vars.ESP_IDF_EXTRA_COMPONENTS}
-           pulse_cnt
+           driver
            
 tags:
   - c
   - js
-  - docs:core:pulse_cnt
+  - docs:core:driver
 
 manifest_version: 2017-05-18
 
