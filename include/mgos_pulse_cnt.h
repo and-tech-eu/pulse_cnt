@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include "mgos_init.h"
-#include "driver/pcnt.h"
+#include "driver/pulse_cnt.h"
 
 #ifdef __cplusplus
 extern "C" {
