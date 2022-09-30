@@ -11,6 +11,11 @@ includes:
 
 platforms: [ esp32 ]
 
+build_vars:
+         ESP_IDF_EXTRA_COMPONENTS: >
+           ${build_vars.ESP_IDF_EXTRA_COMPONENTS}
+           pulse_cnt
+           
 tags:
   - c
   - js
