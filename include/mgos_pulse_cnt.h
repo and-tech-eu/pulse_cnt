@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include "mgos_init.h"
-#include "driver/pcnt.c"
+#include "driver/include/driver/pcnt.h"
 
 #ifdef __cplusplus
 extern "C" {
