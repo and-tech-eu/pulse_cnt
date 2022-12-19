@@ -14,8 +14,8 @@ int pulse_cnt_set_default_config(int pcnt_unit, int pcnt_channel, int signal_gpi
     .hctrl_mode = PCNT_MODE_KEEP,
     .pos_mode = PCNT_COUNT_INC,
     .neg_mode = PCNT_COUNT_DIS,
-    .counter_h_lim = 32767,
-    .counter_l_lim = -32767,
+    .counter_h_lim = 65535,
+    .counter_l_lim = 0,
     .unit = pcnt_unit,
     .channel = pcnt_channel,
     };
